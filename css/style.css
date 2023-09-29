@@ -1,0 +1,13 @@
+body{
+    font-family: 'Open Sans', sans-serif;  
+}
+
+:root {
+	--color-kj-secondary: #2c3e50;
+	--color-kj-primary: #1abc9c;
+	--color-kj-footer: #3a546d;
+}
+
+.bg-kj-secondary{
+    background-color: var(--color-kj-secondary);
+}
