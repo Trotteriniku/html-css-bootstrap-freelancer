@@ -87,3 +87,15 @@ img{
 	
 	height: 50px;
 }
+
+@media screen and (max-width:758px) {
+	#contact{
+		scroll-margin-top: 175px;
+	}
+	#portfolio{
+		scroll-margin-top: 200px;
+	}
+	#about{
+		scroll-margin-top: 175px;
+	}
+}
