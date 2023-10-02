@@ -23,6 +23,10 @@ body{
 .bg-kj-footer{
 	background-color: var(--color-kj-footer);
 }
+
+.my-text-primary{
+	color: var(--color-kj-primary);
+}
 img{
 	width: 100%;
 }
@@ -71,5 +75,9 @@ img{
 }
 
 #about{
+	scroll-margin-top: 50px;
+}
+
+#contact{
 	scroll-margin-top: 50px;
 }
