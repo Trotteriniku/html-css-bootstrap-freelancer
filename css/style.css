@@ -1,3 +1,7 @@
+html{
+	scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;  
 }
@@ -10,4 +14,62 @@ body{
 
 .bg-kj-secondary{
     background-color: var(--color-kj-secondary);
+}
+
+.bg-kj-primary{
+	background-color: var(--color-kj-primary);
+}
+
+.bg-kj-footer{
+	background-color: var(--color-kj-footer);
+}
+img{
+	width: 100%;
+}
+
+.hero{
+	width: 250px;
+}
+.line-black{
+	height: 3px;
+	border-radius: 10px;
+	background-color: black;
+	width: 90px;
+}
+
+.line-white{
+	height: 3px;
+	border-radius: 10px;
+	background-color: white;
+	width: 90px;
+}
+
+.my-image-container{
+	overflow: hidden;
+	border-radius: 10px;
+	position: relative;
+	cursor: pointer;
+}
+.my-image-container:hover:after{
+	content: "+";
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	font-size: 5em;
+	font-weight: bold;
+	color: white;
+	background-color: #1abc9c88;
+}
+
+#portfolio{
+	scroll-margin-top: 75px;
+}
+
+#about{
+	scroll-margin-top: 50px;
 }
